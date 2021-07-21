@@ -56,3 +56,10 @@ will remember your changes across Compose restarts.
 - If you exit (ctrl-c) and then `docker-compose down` it will delete containers, but not
   the volumes, so on next `docker-compose up` everything will be as it was.
 - To totally clean up volumes, add `-v` to `down` command.
+
+
+```bash
+    # build with
+    docker build -t drupal-cms .
+
+```
