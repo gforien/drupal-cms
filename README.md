@@ -62,4 +62,6 @@ will remember your changes across Compose restarts.
     # build with
     docker build -t drupal-cms .
 
+    # compose
+    docker-compose build
 ```
